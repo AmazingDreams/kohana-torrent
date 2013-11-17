@@ -5,11 +5,10 @@ This module wraps the class found at git@github.com:BotLife/torrent-parse.git in
 
 Examples (copied from the readme of mentioned submodule):
 
-<code>
+```php
 $torrent = new Torrent_File($path_to_file);
 
 // get torrent infos
-$torrent = new Torrent( './test.torrent' );
 echo '<br>private: ', $torrent->is_private() ? 'yes' : 'no',
 	 '<br>annonce: ', $torrent->announce(),
 	 '<br>name: ', $torrent->name(),
@@ -49,4 +48,4 @@ if ( $errors = $torrent->errors() )
 
 // send to user
 $torrent->send();
-</code>
+```

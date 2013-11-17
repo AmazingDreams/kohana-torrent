@@ -1,0 +1,3 @@
+[submodule "vendor/torrent-parse"]
+	path = vendor/torrent-parse
+	url = git@github.com:BotLife/torrent-parse.git
